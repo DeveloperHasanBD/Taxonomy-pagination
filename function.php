@@ -34,6 +34,7 @@ $term_offset_args = array(
 
 $usr_selected_terms = get_terms($term_offset_args);
 
+// display taxonomy 
 foreach ($usr_selected_terms as $single_tid) {
 }
 
